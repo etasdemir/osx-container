@@ -18,14 +18,14 @@ Alternatively, get from docker hub:
 ### Run
 ```
 docker run -it \
-	--name macos-container \
+    --name macos-container \
     --device /dev/kvm \
     -p 50922:10022 \
     -v /tmp/.X11-unix:/tmp/.X11-unix \
     -e "DISPLAY=${DISPLAY:-:0.0}" \
-	-e "RAM=18" \
-	-e "CORES=2" \
-	-e "THREADS=4" \
+    -e "RAM=18" \
+    -e "CORES=2" \
+    -e "THREADS=4" \
     -v /mnt/MacosShared:/mnt/MacosShared \
     etasdemir/osx-container:ventura
 ```
