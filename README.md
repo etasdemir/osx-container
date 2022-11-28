@@ -10,12 +10,8 @@ sudo chmod 777 /mnt/MacosShared
 If you want to build yourself:  
 ``docker build -t imageName:tagName .``
 
-Alternatively, get from docker hub:  
-  
+### Run  
 [![https://img.shields.io/docker/image-size/etasdemir/osx-container/ventura?label=etasdemir%2Fosx-container%3Aventura](https://img.shields.io/docker/image-size/etasdemir/osx-container/ventura?label=etasdemir%2Fosx-container%3Aventura)](https://hub.docker.com/r/etasdemir/osx-container/tags?page=1&ordering=last_updated)  
-  
-
-### Run
 ```
 docker run -it \
     --name macos-container \
