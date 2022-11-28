@@ -7,10 +7,13 @@ Run MacOS in a docker container using QEMU. Read/Write on a shared volume, adjus
 sudo mkdir /mnt/MacosShared
 sudo chmod 777 /mnt/MacosShared
 ```
-If you want to build yourself:
+If you want to build yourself:  
 ``docker build -t imageName:tagName .``
 
-Alternatively, get from docker hub:
+Alternatively, get from docker hub:  
+  
+[![https://img.shields.io/docker/image-size/etasdemir/osx-container/ventura?label=etasdemir%2Fosx-container%3Aventura](https://img.shields.io/docker/image-size/etasdemir/osx-container/ventura?label=etasdemir%2Fosx-container%3Aventura)](https://hub.docker.com/r/etasdemir/osx-container/tags?page=1&ordering=last_updated)  
+  
 
 ### Run
 ```
