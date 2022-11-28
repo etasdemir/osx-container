@@ -94,7 +94,7 @@ sudo launchctl start usbmuxd
 export PATH=/usr/local/sbin:${PATH}
 sudo usbfluxd -f -r 172.17.0.1:5000
 ```
-or ``./guest_iphone.sh``
+or ``./guest_iphone.sh``  
 restart xcode
 
 to finish: 
